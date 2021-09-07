@@ -1,5 +1,8 @@
 /** @jsxImportSource @emotion/react */
 import { css } from '@emotion/react';
+import Landing from './components/Landing';
+import Layout from './components/Layout';
+import Services from './components/Services';
 
 const headerStyle = css`
   display: flex;
@@ -9,19 +12,13 @@ const headerStyle = css`
   font-size: 40px;
 `;
 
-function App() {
+export default function Home() {
   return (
-    <div css={headerStyle}>
-      <header>
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a href="https://reactjs.org" target="_blank" rel="noopener noreferrer">
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Layout>
+        <Landing />
+        <Services />
+      </Layout>
     </div>
   );
 }
-
-export default App;
