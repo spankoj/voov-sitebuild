@@ -1,5 +1,7 @@
+import 'react-responsive-carousel/lib/styles/carousel.min.css';
 /** @jsxImportSource @emotion/react */
 import { css } from '@emotion/react';
+import Carousel from './components/Carousel';
 import Landing from './components/Landing';
 import Layout from './components/Layout';
 import Services from './components/Services';
@@ -15,6 +17,7 @@ const headerStyle = css`
 export default function Home() {
   return (
     <div>
+      <Carousel />
       <Layout>
         <Landing />
         <Services />
