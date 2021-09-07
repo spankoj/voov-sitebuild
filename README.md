@@ -1,10 +1,10 @@
 # Voov sitebuild
 
-Exercise to accomplish as part of the hiring process
+The project is an exercise to accomplish as part of the hiring process.
 
 ## Framework
 
-The project is built with React library
+The project is built with React library.
 
 ## CSS
 
