@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Link, Route, Switch } from 'react-router-dom';
+import { BrowserRouter as Router, Link } from 'react-router-dom';
 
 export default function Footer() {
   return (
@@ -11,13 +11,13 @@ export default function Footer() {
                 <Link to="/">COMPANY</Link>
               </li>
               <li>
-                <Link to="/">Szolgáltatások</Link>
+                <Link to="/services">Szolgáltatások</Link>
               </li>
               <li>
-                <Link to="/">Kapcsolat</Link>
+                <Link to="/contact">Kapcsolat</Link>
               </li>
               <li>
-                <Link to="/">Pályázati információk</Link>
+                <Link to="/projectinfo">Pályázati információk</Link>
               </li>
             </ul>
           </nav>

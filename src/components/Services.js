@@ -1,12 +1,12 @@
 import React from 'react';
 import Company from './Company';
-import ServiceCard from './ServiceCard';
+import ServiceCards from './ServiceCards';
 
 function Services() {
   return (
     <main>
       <h1>Szolgáltatásaink</h1>
-      <ServiceCard />
+      <ServiceCards />
       <Company />
     </main>
   );

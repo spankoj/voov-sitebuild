@@ -1,6 +1,6 @@
 /** @jsxImportSource @emotion/react */
 import { css } from '@emotion/react';
-// import Contact from './components/Contact';
+import Contact from './components/Contact';
 import Landing from './components/Landing';
 import Layout from './components/Layout';
 import ProjectInfo from './components/ProjectInfo';
@@ -20,7 +20,7 @@ export default function Home() {
       <Layout>
         <Landing />
         <Services />
-        {/* <Contact /> */}
+        <Contact />
         <ProjectInfo />
       </Layout>
     </div>
