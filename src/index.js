@@ -1,5 +1,6 @@
-/** @jsxImportSource @emotion/react */
-import { css, Global } from '@emotion/react';
+// import './fonts/Lato-Black.ttf';
+// /** @jsxImportSource @emotion/react */
+// import { css, Global } from '@emotion/react';
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
@@ -7,7 +8,7 @@ import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Global
+    {/* <Global
       styles={css`
         * {
           box-sizing: border-box;
@@ -15,10 +16,10 @@ ReactDOM.render(
           padding: 0;
         }
         body {
-          font-family: 'Spartan';
+          font-family: 'Tahoma';
         }
       `}
-    />
+    /> */}
     <App />
   </React.StrictMode>,
   document.getElementById('root'),

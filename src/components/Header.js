@@ -2,7 +2,7 @@ import { BrowserRouter as Router, Link } from 'react-router-dom';
 
 export default function Footer() {
   return (
-    <header>
+    <header className="font-face-lr">
       <Router>
         <div>
           <nav>
