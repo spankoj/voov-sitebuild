@@ -1,4 +1,5 @@
 import React from 'react';
+import Company from './Company';
 import ServiceCard from './ServiceCard';
 
 function Services() {
@@ -6,6 +7,7 @@ function Services() {
     <main>
       <h1>Szolgáltatásaink</h1>
       <ServiceCard />
+      <Company />
     </main>
   );
 }
