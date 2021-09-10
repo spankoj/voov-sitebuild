@@ -12,8 +12,8 @@ export default function ProjectInfo() {
         quam. In nunc tellus, fringilla vel faucibus ut, sodales ac velit. Nunc
         feugiat et elit eu venenatis. In porta diam arcu.
       </p>
-      <button>Donec ut turpis suscipit 2020</button>
-      <button>Fringilla vel faucibus ut 2021</button>
+      <button className="btn">Donec ut turpis suscipit 2020</button>
+      <button className="btn">Fringilla vel faucibus ut 2021</button>
     </div>
   );
 }

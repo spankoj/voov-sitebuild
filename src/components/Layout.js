@@ -13,7 +13,7 @@ export default function Layout({ title, keywords, description, children }) {
 
       <Header />
 
-      <div>{children}</div>
+      <main>{children}</main>
 
       <Footer />
     </div>

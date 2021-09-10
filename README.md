@@ -8,8 +8,6 @@ The project is built with React library.
 
 ## NPM Libraries
 
-Emotion is a library designed for writing css styles with JavaScript.
-
 React Responsive Carousel
 https://www.npmjs.com/package/react-responsive-carousel
 
