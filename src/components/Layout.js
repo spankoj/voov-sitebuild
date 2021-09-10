@@ -1,6 +1,4 @@
 import Helmet from 'react-helmet';
-import Footer from './Footer';
-import Header from './Header';
 
 export default function Layout({ title, keywords, description, children }) {
   return (
@@ -11,11 +9,7 @@ export default function Layout({ title, keywords, description, children }) {
         <meta name="keywords" content={keywords} />
       </Helmet>
 
-      <Header />
-
       <main>{children}</main>
-
-      <Footer />
     </div>
   );
 }

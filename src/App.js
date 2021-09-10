@@ -1,5 +1,6 @@
 import './styles/global.css';
 import Contact from './components/Contact';
+import Footer from './components/Footer';
 import Landing from './components/Landing';
 import Layout from './components/Layout';
 import ProjectInfo from './components/ProjectInfo';
@@ -13,6 +14,7 @@ export default function Home() {
         <Services />
         <Contact />
         <ProjectInfo />
+        <Footer />
       </Layout>
     </div>
   );

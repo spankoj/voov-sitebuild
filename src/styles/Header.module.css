@@ -1,27 +1,16 @@
-:root {
-  --white: #fff;
-  --light-gray: #f2f2f2;
-  --dark-gray: #676767;
-  --light-blue: #1d75b7;
-  --dark-blue: #00305f;
-  --red: #df0020;
-}
 .header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background: var(--dark-blue);
+  /* background: var(--dark-blue); */
   color: #fff;
   height: 40px;
   padding: 30px 20px;
 }
 
-.nabvar {
-  display: flex;
-}
-
 .header ul {
   display: flex;
+  gap: 20px;
   align-items: center;
   justify-content: space-between;
   text-transform: uppercase;
