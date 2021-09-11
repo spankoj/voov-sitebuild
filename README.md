@@ -17,6 +17,17 @@ https://www.npmjs.com/package/react-multi-carousel
 google-maps-react
 https://www.npmjs.com/package/google-maps-react
 
-### Images
+### Misc.
+
+## Images
 
 Unsplash
+
+## Fonts
+
+Google fonts
+https://fonts.google.com/specimen/Lato
+
+## Icons
+
+Fontawesome

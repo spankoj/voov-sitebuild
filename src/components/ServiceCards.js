@@ -1,6 +1,9 @@
 import 'react-multi-carousel/lib/styles.css';
+import { faChevronRight } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Carousel from 'react-multi-carousel';
 import { BrowserRouter as Router, Link } from 'react-router-dom';
+import styles from '../styles/ServiceCards.module.css';
 
 function ServiceCards() {
   const responsive = {
@@ -31,69 +34,101 @@ function ServiceCards() {
           showDots={true}
           infinite={true}
         >
-          <div>
+          <div className={styles.card}>
             <img
+              className={styles.img}
               src="images/szolg_1.png"
               alt="szolgáltatás 1"
-              width={100}
-              height={80}
             />
-            <h2>Nulla quam nisl</h2>
-            <p>
-              Donec ut turpis suscipit lectus luctus mattis. Nulla quam nisl,
-              lacinia a nisi nec, accumsan luctus quam. In nunc tellus,
-              fringilla vel faucibus ut, sodales ac velit. Nunc feugiat et elit
-              eu venenatis. In porta diam arcu.
-            </p>
-            <Link to="/">Részletek</Link>
+            <div className={styles.cardContent}>
+              <h2>Nulla quam nisl</h2>
+              <p>
+                Donec ut turpis suscipit lectus luctus mattis. Nulla quam nisl,
+                lacinia a nisi nec, accumsan luctus quam. In nunc tellus,
+                fringilla vel faucibus ut, sodales ac velit. Nunc feugiat et
+                elit eu venenatis. In porta diam arcu.
+              </p>
+              <Link to="/" className={styles.link}>
+                Részletek
+                <FontAwesomeIcon
+                  className={styles.icon}
+                  icon={faChevronRight}
+                  size="sm"
+                />
+              </Link>
+            </div>
           </div>
-          <div>
+          <div className={styles.card}>
             <img
+              className={styles.img}
               src="images/szolg_2.png"
               alt="szolgáltatás 2"
-              width={100}
-              height={80}
             />
-            <h2>Donec ut turpis suscipit</h2>
-            <p>
-              Donec ut turpis suscipit lectus luctus mattis. Nulla quam nisl,
-              lacinia a nisi nec, accumsan luctus quam. In nunc tellus,
-              fringilla vel faucibus ut, sodales ac velit. Nunc feugiat et elit
-              eu venenatis. In porta diam arcu.
-            </p>
-            <Link to="/">Részletek</Link>
+            <div className={styles.cardContent}>
+              <h2>Donec ut turpis suscipit</h2>
+              <p>
+                Donec ut turpis suscipit lectus luctus mattis. Nulla quam nisl,
+                lacinia a nisi nec, accumsan luctus quam. In nunc tellus,
+                fringilla vel faucibus ut, sodales ac velit. Nunc feugiat et
+                elit eu venenatis. In porta diam arcu.
+              </p>
+              <Link to="/" className={styles.link}>
+                Részletek
+                <FontAwesomeIcon
+                  className={styles.icon}
+                  icon={faChevronRight}
+                  size="sm"
+                />
+              </Link>
+            </div>
           </div>
-          <div>
+          <div className={styles.card}>
             <img
+              className={styles.img}
               src="images/szolg_3.png"
               alt="szolgáltatás 3"
-              width={100}
-              height={80}
             />
-            <h2> In porta diam arcu</h2>
-            <p>
-              Donec ut turpis suscipit lectus luctus mattis. Nulla quam nisl,
-              lacinia a nisi nec, accumsan luctus quam. In nunc tellus,
-              fringilla vel faucibus ut, sodales ac velit. Nunc feugiat et elit
-              eu venenatis. In porta diam arcu.
-            </p>
-            <Link to="/">Részletek</Link>
+            <div className={styles.cardContent}>
+              <h2> In porta diam arcu</h2>
+              <p>
+                Donec ut turpis suscipit lectus luctus mattis. Nulla quam nisl,
+                lacinia a nisi nec, accumsan luctus quam. In nunc tellus,
+                fringilla vel faucibus ut, sodales ac velit. Nunc feugiat et
+                elit eu venenatis. In porta diam arcu.
+              </p>
+              <Link to="/" className={styles.link}>
+                Részletek
+                <FontAwesomeIcon
+                  className={styles.icon}
+                  icon={faChevronRight}
+                  size="sm"
+                />
+              </Link>
+            </div>
           </div>
-          <div>
+          <div className={styles.card}>
             <img
+              className={styles.img}
               src="images/szolg_4.jpeg"
               alt="szolgáltatás 4"
-              width={100}
-              height={80}
             />
-            <h2>Negyedik</h2>
-            <p>
-              Donec ut turpis suscipit lectus luctus mattis. Nulla quam nisl,
-              lacinia a nisi nec, accumsan luctus quam. In nunc tellus,
-              fringilla vel faucibus ut, sodales ac velit. Nunc feugiat et elit
-              eu venenatis. In porta diam arcu.
-            </p>
-            <Link to="/">Részletek</Link>
+            <div className={styles.cardContent}>
+              <h2>Negyedik</h2>
+              <p>
+                Donec ut turpis suscipit lectus luctus mattis. Nulla quam nisl,
+                lacinia a nisi nec, accumsan luctus quam. In nunc tellus,
+                fringilla vel faucibus ut, sodales ac velit. Nunc feugiat et
+                elit eu venenatis. In porta diam arcu.
+              </p>
+              <Link to="/" className={styles.link}>
+                Részletek
+                <FontAwesomeIcon
+                  className={styles.icon}
+                  icon={faChevronRight}
+                  size="sm"
+                />
+              </Link>
+            </div>
           </div>
         </Carousel>
         ;

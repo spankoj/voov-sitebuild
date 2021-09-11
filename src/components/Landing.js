@@ -6,7 +6,7 @@ import Header from './Header';
 
 function Landing() {
   return (
-    <div className={style.landing}>
+    <section className={style.landing}>
       <Header />
       <div className={style.carousel}>
         <Carousel />
@@ -22,7 +22,7 @@ function Landing() {
           erat ipsum sed arcu.
         </p>
       </div>
-    </div>
+    </section>
   );
 }
 

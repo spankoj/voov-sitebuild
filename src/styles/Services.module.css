@@ -1,0 +1,33 @@
+:root {
+  --white: #fff;
+  --light-gray: #f2f2f2;
+  --dark-gray: #676767;
+  --light-blue: #1d75b7;
+  --dark-blue: #00305f;
+  --red: #df0020;
+}
+
+.line {
+  border-bottom: 2px var(--red) solid;
+  width: 40px;
+  height: 2px;
+  margin-bottom: 20px;
+}
+
+.services {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.services h1 {
+  color: var(--dark-blue);
+  font-size: 32px;
+  font-weight: 300;
+  margin-top: 40px;
+}
+
+.services div {
+  margin: 30px 0 30px;
+}

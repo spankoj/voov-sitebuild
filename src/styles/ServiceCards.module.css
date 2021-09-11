@@ -1,0 +1,45 @@
+:root {
+  --white: #fff;
+  --light-gray: #f2f2f2;
+  --dark-gray: #676767;
+  --light-blue: #1d75b7;
+  --dark-blue: #00305f;
+  --red: #df0020;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 250px;
+
+  justify-content: center;
+  text-align: center;
+  border: 1px solid rgb(206, 202, 202);
+  border-radius: 3px;
+}
+
+.cardContent h2 {
+  font-size: 22px;
+  font-weight: bold;
+  color: var(--dark-gray);
+}
+
+.img {
+  width: auto;
+  height: auto;
+  max-height: 165.33px;
+}
+.link {
+  font-size: 16px;
+  font-weight: bold;
+  color: var(--light-blue);
+}
+.icon {
+  margin-left: 5px;
+}
+.cardContent {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 0px 5px 20px;
+}
