@@ -6,6 +6,9 @@
   --dark-blue: #00305f;
   --red: #df0020;
 }
+.cardContainer {
+  margin-bottom: 5rem;
+}
 .card {
   display: flex;
   flex-direction: column;

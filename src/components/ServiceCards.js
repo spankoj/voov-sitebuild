@@ -26,7 +26,7 @@ function ServiceCards() {
 
   return (
     <Router>
-      <div>
+      <div className={styles.cardContainer}>
         <Carousel
           responsive={responsive}
           swipeable={true}
@@ -131,7 +131,6 @@ function ServiceCards() {
             </div>
           </div>
         </Carousel>
-        ;
       </div>
     </Router>
   );
