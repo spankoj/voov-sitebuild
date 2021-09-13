@@ -14,7 +14,7 @@ function Landing() {
           <h1>Ismerd meg</h1>
           <h1>szolgáltatásainkat</h1>
         </div>
-        <div className={style.line}></div>
+        <div className={style.line} />
         <p className={style.par}>
           Ut posuere, quam id dapibus placerat, dui sem rutrum ante, et aliquet
           erat ipsum sed arcu.

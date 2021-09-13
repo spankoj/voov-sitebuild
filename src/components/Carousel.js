@@ -12,7 +12,6 @@ function Carusel() {
         showStatus={false}
         infiniteLoop={false}
         swipeable={true}
-        infiniteLoop={true}
       >
         <div className={style.overlay}>
           <img alt="landing1" src="images/landing.jpg" />

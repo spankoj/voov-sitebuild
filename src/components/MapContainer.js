@@ -31,8 +31,8 @@ export class MapContainer extends Component {
         disableDefaultUI={true}
       >
         <Marker
-          title={'Bem u. 3, Sopron, 9400'}
-          name={'Székhely'}
+          title="Bem u. 3, Sopron, 9400"
+          name="Székhely"
           position={{ lat: 47.68407973440746, lng: 16.596867804288838 }}
           icon={{
             url: '/images/Marker.png',
