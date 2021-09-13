@@ -1,11 +1,10 @@
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
-import React from 'react';
 import { Carousel } from 'react-responsive-carousel';
 import style from '../styles/Carousel.module.css';
 
 function Carusel() {
   return (
-    <div>
+    <div className={style.carousel}>
       <Carousel
         autoPlay
         interval={10000}

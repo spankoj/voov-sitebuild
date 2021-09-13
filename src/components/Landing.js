@@ -1,4 +1,3 @@
-import React from 'react';
 import style from '../styles/Landing.module.css';
 import Carousel from './Carousel';
 import Header from './Header';

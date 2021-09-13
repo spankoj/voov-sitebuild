@@ -1,9 +1,9 @@
-import { GoogleApiWrapper, InfoWindow, Map, Marker } from 'google-maps-react';
-import React, { Component } from 'react';
+import { GoogleApiWrapper, Map, Marker } from 'google-maps-react';
+import { Component } from 'react';
 
 const mapStyles = {
   width: '100%',
-  height: '300px',
+  height: '350px',
   maxWidth: '1000px',
 };
 

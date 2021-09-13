@@ -39,3 +39,54 @@
 .cegunk6 {
   grid-area: cegunk6;
 }
+
+@media only screen and (max-width: 768px) {
+  .grid {
+    display: grid;
+    grid-template-areas:
+      'h1'
+      'cegunk1'
+      'cegunk2'
+      'cegunk3'
+      'cegunk4'
+      'cegunk5'
+      'cegunk6';
+    grid-gap: 1rem;
+    background-color: #1d75b7;
+    padding: 1rem 1rem 4rem;
+    margin-bottom: 2rem;
+    width: auto;
+  }
+  .grid img {
+    max-width: 300px;
+    max-height: 300px;
+    min-width: 300px;
+    min-height: 300px;
+  }
+  .header {
+    grid-area: h1;
+    color: #fff;
+    font-weight: 300;
+    font-size: 32px;
+    text-align: center;
+    margin: 2rem;
+  }
+  .cegunk1 {
+    grid-area: cegunk1;
+  }
+  .cegunk2 {
+    grid-area: cegunk2;
+  }
+  .cegunk3 {
+    grid-area: cegunk3;
+  }
+  .cegunk4 {
+    grid-area: cegunk4;
+  }
+  .cegunk5 {
+    grid-area: cegunk5;
+  }
+  .cegunk6 {
+    grid-area: cegunk6;
+  }
+}

@@ -3,9 +3,9 @@ import styles from '../styles/Header.module.css';
 export default function Header() {
   return (
     <header>
-      <section id="navigtion" className={styles.header}>
+      <section id="landing" className={styles.header}>
         <div>
-          <a href="#navigation">
+          <a href="#landing">
             <img src="/images/logo.png" alt="icon" />
           </a>
         </div>
@@ -24,7 +24,6 @@ export default function Header() {
           </ul>
         </nav>
       </section>
-      <div className={styles.line} />
     </header>
   );
 }

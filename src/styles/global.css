@@ -38,6 +38,7 @@ body {
   border: 0;
   border-radius: 3px;
   margin: 10px 0;
+  padding: 10px 30px;
 }
 
 .btn:hover {
@@ -63,4 +64,27 @@ body {
   font-weight: bold;
   color: var(--dark-gray);
   margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+  body {
+    margin: auto;
+    font-family: 'Lato', sans-serif;
+    line-height: 1.5;
+    background-color: var(--light-gray);
+    max-width: 360px;
+    padding: 0 15px;
+  }
+  .btn {
+    display: block;
+    background: var(--dark-blue);
+    color: var(--white);
+    padding: 1px 30px;
+    cursor: pointer;
+    border: 0;
+    border-radius: 3px;
+    margin: 10px 0;
+    padding: 10px 30px;
+    width: 100%;
+  }
 }
