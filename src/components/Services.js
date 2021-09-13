@@ -7,8 +7,8 @@ function Services() {
   return (
     <section>
       <div className={styles.services}>
-        <h1>Szolgáltatásaink</h1>
-        <div className={styles.line}></div>
+        <h1 className="headerBlue">Szolgáltatásaink</h1>
+        <div className="line" />
       </div>
       <ServiceCards />
       <Company />

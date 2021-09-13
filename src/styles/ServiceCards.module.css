@@ -21,12 +21,6 @@
   border-radius: 3px;
 }
 
-.cardContent h2 {
-  font-size: 22px;
-  font-weight: bold;
-  color: var(--dark-gray);
-}
-
 .img {
   width: auto;
   height: auto;

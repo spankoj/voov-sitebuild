@@ -4,6 +4,7 @@ import React, { Component } from 'react';
 const mapStyles = {
   width: '100%',
   height: '300px',
+  maxWidth: '1000px',
 };
 
 const mapOptions = {

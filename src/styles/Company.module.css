@@ -3,17 +3,15 @@
   grid-template: fit-content;
   grid-template-columns: repeat(4, 1fr);
   grid-template-columns: repeat(3, 1fr);
-  /* grid-template-columns: repeat(4, calc(25% - 0.75em)); */
   grid-template-areas:
     'h1 h1 h1 h1'
     'cegunk1 cegunk1 cegunk2 cegunk3'
     'cegunk1 cegunk1 cegunk6 cegunk6'
     'cegunk4 cegunk5 cegunk6 cegunk6';
-  grid-row-gap: 16px;
-  grid-column-gap: 16px;
+  grid-gap: 1rem;
   background-color: #1d75b7;
-  align-items: stretch;
-  padding: 1em;
+  padding: 1rem 1rem 4rem;
+  margin-bottom: 2rem;
 }
 .header {
   grid-area: h1;

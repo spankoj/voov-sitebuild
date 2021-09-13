@@ -1,0 +1,33 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #00305f;
+  color: #fff;
+}
+.heading {
+  /* width: 70px; */
+  height: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.line {
+  border-bottom: 1px solid #1d75b7;
+  height: 1px;
+  width: 100%;
+  /* position: absolute; */
+  /* padding: 0 15px; */
+}
+
+.copy {
+  font-size: 15px;
+  font-weight: 300;
+  height: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
