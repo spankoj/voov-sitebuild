@@ -40,3 +40,9 @@
   gap: 15px;
   padding: 0px 5px 20px;
 }
+.header2 {
+  font-size: 22px;
+  font-weight: bold;
+  color: var(--dark-gray);
+  margin-bottom: 5px;
+}

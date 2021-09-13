@@ -7,7 +7,6 @@
   color: #fff;
 }
 .heading {
-  /* width: 70px; */
   height: 5rem;
   display: flex;
   justify-content: center;
@@ -18,8 +17,6 @@
   border-bottom: 1px solid #1d75b7;
   height: 1px;
   width: 100%;
-  /* position: absolute; */
-  /* padding: 0 15px; */
 }
 
 .copy {

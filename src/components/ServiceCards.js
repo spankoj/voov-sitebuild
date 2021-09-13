@@ -41,7 +41,7 @@ function ServiceCards() {
               alt="szolgáltatás 1"
             />
             <div className={styles.cardContent}>
-              <h2 className="header2">Nulla quam nisl</h2>
+              <h2 className={styles.header2}>Nulla quam nisl</h2>
               <p>
                 Donec ut turpis suscipit lectus luctus mattis. Nulla quam nisl,
                 lacinia a nisi nec, accumsan luctus quam. In nunc tellus,
@@ -65,7 +65,7 @@ function ServiceCards() {
               alt="szolgáltatás 2"
             />
             <div className={styles.cardContent}>
-              <h2 className="header2">Donec ut turpis suscipit</h2>
+              <h2 className={styles.header2}>Donec ut turpis suscipit</h2>
               <p>
                 Donec ut turpis suscipit lectus luctus mattis. Nulla quam nisl,
                 lacinia a nisi nec, accumsan luctus quam. In nunc tellus,
@@ -89,7 +89,7 @@ function ServiceCards() {
               alt="szolgáltatás 3"
             />
             <div className={styles.cardContent}>
-              <h2 className="header2"> In porta diam arcu</h2>
+              <h2 className={styles.header2}> In porta diam arcu</h2>
               <p>
                 Donec ut turpis suscipit lectus luctus mattis. Nulla quam nisl,
                 lacinia a nisi nec, accumsan luctus quam. In nunc tellus,
@@ -113,7 +113,7 @@ function ServiceCards() {
               alt="szolgáltatás 4"
             />
             <div className={styles.cardContent}>
-              <h2 className="header2">Negyedik</h2>
+              <h2 className={styles.header2}>Negyedik</h2>
               <p>
                 Donec ut turpis suscipit lectus luctus mattis. Nulla quam nisl,
                 lacinia a nisi nec, accumsan luctus quam. In nunc tellus,

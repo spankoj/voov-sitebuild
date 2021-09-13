@@ -1,12 +1,3 @@
-:root {
-  --white: #fff;
-  --light-gray: #f2f2f2;
-  --dark-gray: #676767;
-  --light-blue: #1d75b7;
-  --dark-blue: #00305f;
-  --red: #df0020;
-}
-
 .services {
   display: flex;
   flex-direction: column;

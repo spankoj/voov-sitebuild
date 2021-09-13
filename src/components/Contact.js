@@ -3,7 +3,7 @@ import MapContainer from './MapContainer';
 
 export default function Contact() {
   return (
-    <main className={styles.contact}>
+    <section id="contact" className={styles.contact}>
       <div className={styles.contactBorder}>
         <div className={styles.headlines}>
           <h1 className="headerBlue">Kapcsolat</h1>
@@ -72,6 +72,6 @@ export default function Contact() {
       <div className={styles.map}>
         <MapContainer />
       </div>
-    </main>
+    </section>
   );
 }

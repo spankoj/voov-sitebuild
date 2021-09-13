@@ -1,30 +1,30 @@
-import { BrowserRouter as Router, Link } from 'react-router-dom';
 import styles from '../styles/Header.module.css';
 
 export default function Header() {
   return (
-    <header className={styles.header}>
-      <Router>
+    <header>
+      <section id="navigtion" className={styles.header}>
         <div>
-          <Link to="/">
-            <img className={styles.img} src="/images/logo.png" alt="icon" />
-          </Link>
+          <a href="#navigation">
+            <img src="/images/logo.png" alt="icon" />
+          </a>
         </div>
 
         <nav className={styles.navbar}>
           <ul className={styles.ul}>
             <li>
-              <Link to="/services">Szolgáltatások</Link>
+              <a href="#services">Szolgáltatások</a>
             </li>
             <li>
-              <Link to="/contact">Kapcsolat</Link>
+              <a href="#contact">Kapcsolat</a>
             </li>
             <li>
-              <Link to="/projectinfo">Pályázati információk</Link>
+              <a href="#projectInfo">Pályázati Információk</a>
             </li>
           </ul>
         </nav>
-      </Router>
+      </section>
+      <div className={styles.line} />
     </header>
   );
 }

@@ -1,4 +1,3 @@
-// import landing from 'publicimages/landing.jpg';
 import React from 'react';
 import style from '../styles/Landing.module.css';
 import Carousel from './Carousel';
@@ -7,8 +6,8 @@ import Header from './Header';
 function Landing() {
   return (
     <section className={style.landing}>
-      <Header />
       <div className={style.carousel}>
+        <Header />
         <Carousel />
       </div>
       <div className={style.content}>

@@ -4,7 +4,10 @@ export default function ProjectInfo() {
   return (
     <section className={styles.pinfo}>
       <div className={styles.headlines}>
-        <h1 className="headerBlue"> Donec ut turpis</h1>
+        <h1 id="projectInfo" className="headerBlue">
+          {' '}
+          Donec ut turpis
+        </h1>
         <div className="line" />
 
         <div className={styles.column}>
